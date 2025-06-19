@@ -144,8 +144,8 @@ with torch.no_grad():
   predicted_class_index = torch.argmax(output[0]).item()
   predicted_class_label = iris.target_names[predicted_class_index]
 
-print("\nName: DEVESH S")
-print("\nRegister Name: 212223230041")
+print("\nName: AMALJOSH MAADHAV J")
+print("\nRegister Name: 212223230012")
 print(f"Predicted class for sample input: {predicted_class_label}")
 print(f"Actual class for sample input: {iris.target_names[y_test[5].item()]}")
 
